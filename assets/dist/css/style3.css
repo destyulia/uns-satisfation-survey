@@ -1,0 +1,219 @@
+body {
+    background-image: url("../../assets/img/bgm.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #2F2D3B;
+}
+
+.round{
+    border-radius: 50%;
+ 	width: 10vw;
+    height: 10vw;
+    position: absolute;
+}
+
+.p1{
+	top: 85.0vw;
+	left: 14.9vw;
+
+}
+
+.p2{
+	top: 81.0vw;
+	left: 29.9vw;
+
+}
+
+.p3{
+	top: 75.0vw;
+	left: 54.9vw;
+
+}
+
+.p4{
+	top: 91.0vw;
+	left: 46.9vw;
+
+}
+
+.p5{
+	top: 70.0vw;
+	left: 41.9vw;
+
+}
+
+.p6{
+	top: 71.0vw;
+	left: 65.9vw;
+
+}
+
+.p7{
+	top: 94.0vw;
+	left: 31.9vw;
+
+}
+
+.nama{
+
+	text-align: center;
+
+}
+
+.harapan{
+
+	text-align: center;
+
+}
+
+.jabatan{
+
+	text-align: center;
+
+}
+
+.foto{
+
+	border-radius: 50%;
+
+	width: 20vw;
+	height: 20vw;
+}
+
+.kotak{
+	
+	position: absolute;
+	top: 20.0vw;
+	left: 5.9vw;
+	width:25vw;
+	height:28vw;
+	color: #2F2D3B; 
+
+}
+
+.kotak_mobile{
+	
+	position: absolute;
+	top: 20.0vw;
+	/*left: 5.9vw;
+*/	width:25vw;
+	height:28vw;
+	color: #2F2D3B; 
+
+}
+
+.people{
+	
+}
+
+.halfoto{
+	width: 100%;
+	padding:0px 3.5vw;
+	text-align: center;
+}
+
+.halnama{
+	max-width: 100%;
+	text-align: center;
+	padding: 0px 0px;
+}
+
+.halharapan{
+	max-width: 100%;
+	text-align: center;
+}
+
+.halinstansi{
+	max-width: 100%;
+	text-align: center;
+}
+
+.tombol{
+	position: absolute;
+	bottom: 13.0vw;
+	/*left: 5.0vw;*/
+	width: 100%;
+}
+
+.tombol_all{
+	position: absolute;
+	bottom: 3.0vw;
+	/*left: 5.0vw;*/
+	width: 100%;
+}
+
+.tombol1{
+	position: absolute;
+	top: 20.0vw;
+	left: 42.3vw;
+}
+
+.tombol2{
+	position: absolute;
+	top: 25.0vw;
+	left: 42.3vw;
+}
+
+.login {
+	border-radius: 2px 2px 5px 5px;
+	padding: 10px 20px 20px 20px;
+	width: 90%;
+	max-width: 320px;
+	background: #ffffff;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+.login.loading button {
+	max-height: 100%;
+	padding-top: 50px;
+}
+
+.login.ok button {
+	background-color: #8bc34a;
+}
+
+.login input, select, textarea {
+	display: block;
+	padding: 15px 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #ddd;
+	transition: border-width 0.2s ease;
+	border-radius: 2px;
+	color: grey;
+}
+
+.login select{
+	color: grey;
+}
+
+.login input + i.fa , select + i.fa , textarea + i.fa {
+	color: #fff;
+	font-size: 1em;
+	position: absolute;
+	margin-top: -47px;
+	opacity: 0;
+	left: 0;
+	transition: all 0.1s ease-in;
+}
+
+.login input:focus , select:focus{
+	outline: none;
+	color: grey;
+	border-color: #83d3b1;
+	border-left-width: 35px;
+}
+
+
+.login input:focus + i.fa , select:focus + i.fa, textarea:focus + i.fa{
+	opacity: 1;
+	left: 30px;
+	transition: all 0.25s ease-out;
+}
+
+.btn-xlarge {
+   font-size: 38px;
+  line-height: 1.33;
+  border-radius: 6px;
+    }

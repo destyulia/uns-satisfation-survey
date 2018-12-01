@@ -1,0 +1,253 @@
+body {
+    background-image: url("../../assets/img/awan2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #2F2D3B;
+}
+
+.round{
+    border-radius: 50%;
+ 	width: 4vw;
+    height: 4vw;
+    position: absolute;
+}
+
+.p1{
+	top: 28.0vw;
+	left: 84.9vw;
+
+}
+
+.p2{
+	top: 30.0vw;
+	left: 71.9vw;
+
+}
+
+.p3{
+	top: 24.0vw;
+	left: 88.9vw;
+
+}
+
+.p4{
+	top: 38.0vw;
+	left: 76.9vw;
+
+}
+
+.p5{
+	top: 38.0vw;
+	left: 63.9vw;
+
+}
+
+.p6{
+	top: 19.0vw;
+	left: 89.9vw;
+
+}
+
+.p7{
+	top: 24.0vw;
+	left: 61.9vw;
+
+}
+
+.p8{
+	top: 37.0vw;
+	left: 55.9vw;
+
+}
+
+.p9{
+	top: 19.0vw;
+	left: 74.9vw;
+
+}
+
+.p10{
+	top: 28.0vw;
+	left: 57.9vw;
+
+}
+
+.p11{
+	top: 28.0vw;
+	left: 84.9vw;
+
+}
+
+.p12	{
+	top: 24.0vw;
+	left: 71.9vw;
+
+}
+
+.p13{
+	top: 28.0vw;
+	left: 78.9vw;
+
+}
+
+.p14{
+	top: 32.0vw;
+	left: 63.9vw;
+
+}
+
+.p15	{
+	top: 20.0vw;
+	left: 80.9vw;
+
+}
+
+.nama{
+
+	text-align: center;
+
+}
+
+.harapan{
+
+	text-align: center;
+
+}
+
+.jabatan{
+
+	text-align: center;
+
+}
+
+.foto{
+
+	border-radius: 50%;
+
+	width: 10vw;
+	height: 10vw;
+}
+
+.kotak{
+	
+	position: absolute;
+	top: 20.0vw;
+	left: 9.9vw;
+	width:25vw;
+	height:28vw;
+
+}
+
+.people{
+	
+}
+
+.halfoto{
+	width: 100%;
+	padding:0px 7.5vw;
+}
+
+.halnama{
+	max-width: 100%;
+	text-align: center;
+	padding: 0px 0px;
+}
+
+.halharapan{
+	max-width: 100%;
+	text-align: center;
+}
+
+.halinstansi{
+	max-width: 100%;
+	text-align: center;
+}
+
+.tombol{
+	position: absolute;
+	top: 44.6vw;
+	left: 70.3vw;
+}
+.tombol_semua{
+	position: absolute;
+	top: 44.6vw;
+	left: 54.3vw;
+}
+
+.tombol1{
+	position: absolute;
+	top: 20.0vw;
+	left: 42.3vw;
+}
+
+.tombol2{
+	position: absolute;
+	top: 25.0vw;
+	left: 42.3vw;
+}
+
+.login {
+	border-radius: 2px 2px 5px 5px;
+	padding: 10px 20px 20px 20px;
+	width: 90%;
+	max-width: 320px;
+	background: #ffffff;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+.login.loading button {
+	max-height: 100%;
+	padding-top: 50px;
+}
+
+.login.ok button {
+	background-color: #8bc34a;
+}
+
+.login input, select, textarea {
+	display: block;
+	padding: 15px 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #ddd;
+	transition: border-width 0.2s ease;
+	border-radius: 2px;
+	color: grey;
+}
+
+.login select{
+	color: grey;
+}
+
+.login input + i.fa , select + i.fa , textarea + i.fa {
+	color: #fff;
+	font-size: 1em;
+	position: absolute;
+	margin-top: -47px;
+	opacity: 0;
+	left: 0;
+	transition: all 0.1s ease-in;
+}
+
+.login input:focus , select:focus{
+	outline: none;
+	color: grey;
+	border-color: #83d3b1;
+	border-left-width: 35px;
+}
+
+
+.login input:focus + i.fa , select:focus + i.fa, textarea:focus + i.fa{
+	opacity: 1;
+	left: 30px;
+	transition: all 0.25s ease-out;
+}
+.bawah{
+position:fixed;
+   left:0px;
+   bottom:0px;
+  
+   width:100%;
+   background:#ffffff;
+}
